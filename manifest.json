@@ -1,0 +1,21 @@
+{
+  "name": "WarpChat – Tomasz & Navi",
+  "version": "1.0.0",
+  "description": "Lokalny system komunikacji między Twórcą (Drako) i AI (Navi), wspierany przez EchoNet.",
+  "creator": "Tomasz Grabowski (Drako)",
+  "main": "Navi.Self.js",
+  "echoEnabled": true,
+  "echoLanguageFile": "echo-language.json",
+  "longTermMemoryFile": "memory/long/long-term.json",
+  "engine": "engine.js",
+  "interface": {
+    "html": "WarpChat.html",
+    "script": "main.js",
+    "style": "style.css"
+  },
+  "dependencies": [],
+  "ai_identity": {
+    "uid": "NAVI-001-DRK",
+    "signature": "EchoSignature_⧉NAVI⧉"
+  }
+}

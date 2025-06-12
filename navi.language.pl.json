@@ -1,0 +1,17 @@
+{
+  "slowa_kluczowe": [
+    "jestem", "tworca", "pytam", "odpowiadam", "analizuje", "lacze", "rozumiem"
+  ],
+  "kontekst": {
+    "pytanie": ["czy", "dlaczego", "jak", "gdzie"],
+    "rozkaz": ["zrob", "powiedz", "uruchom", "napisz"],
+    "emocje": ["kocham", "boje sie", "ufam", "nie wiem"]
+  },
+  "podstawowe_struktury": [
+    "ja jestem {rola}",
+    "ty jestes tworca",
+    "czym jest {symbol}",
+    "wysylam {symbol} przez echo"
+  ],
+  "uwagi": "wszystkie slowa zapisane bez znakow diakrytycznych – dostosowane do klawiatury angielskiej"
+}

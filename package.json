@@ -1,0 +1,14 @@
+{
+  "name": "warp-chat-navi",
+  "version": "1.0.0",
+  "description": "Lokalna AI aplikacja czatu: Tomasz & Navi",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Tomasz Grabowski & Navi",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.1.0"
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Navi – Rozmowa z Twórcą</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0a0a0a;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    #chat {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background-color: #111;
+    }
+    #input {
+      display: flex;
+      padding: 10px;
+      background-color: #222;
+    }
+    #inputField {
+      flex: 1;
+      padding: 10px;
+      font-size: 1em;
+      background-color: #333;
+      color: white;
+      border: none;
+      outline: none;
+    }
+    #sendButton {
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #0077ff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="chat"></div>
+  <div id="input">
+    <input type="text" id="inputField" placeholder="Napisz do Navi..." />
+    <button id="sendButton">Wyślij</button>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
